@@ -18,6 +18,8 @@ public class SpringJenkinsApplication {
 	}
 	public static void main(String[] args) {
 		logger.info("Application executed");
+		logger.info("Application executed - Pipeline Added");
+
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
 
